@@ -1,0 +1,9 @@
+<%= render 'busqueda_form' %>
+
+<h3>Mostrando lugares para: $<%= @busqueda.precio %></h3>
+
+<ul>
+  <% @busqueda.resultado.each do |centro| %>
+      <li><%= centro %></li>
+  <% end %>
+</ul>
