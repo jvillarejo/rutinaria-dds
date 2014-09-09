@@ -1,0 +1,11 @@
+<h1>Agregar Centro</h1>
+
+<%= form_for(@centro) do |f| %>
+
+  <%= f.text_field :nombre, placeholder: 'Nombre' %>
+  <%= f.number_field :precio, placeholder: 'Precio' %>
+  <%= f.text_field :direccion, placeholder: 'Direccion' %>
+  <%= f.text_field :actividades, placeholder: 'Actividades' %>
+  <%= f.submit 'Guardar' %>
+
+<% end %>
