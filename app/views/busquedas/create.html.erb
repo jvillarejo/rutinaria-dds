@@ -1,9 +1,22 @@
 <%= render 'busqueda_form' %>
 
 <h3>Mostrando lugares para: $<%= @busqueda.precio %></h3>
+<hr>
 
-<ul>
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Precio</th>
+    <th>Dirección</th>
+    <th>Actividades</th>
+  </tr>
+  
   <% @busqueda.resultado.each do |centro| %>
-      <li><%= centro %></li>
+    <tr>
+      <td><%= centro.nombre %></td>
+      <td><%= centro.precio %></td>
+      <td><%= centro.direccion %></td>
+      <td><%= centro.actividades %></td>
+    </tr>
   <% end %>
-</ul>
+</table>
