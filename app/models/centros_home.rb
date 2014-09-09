@@ -1,9 +1,13 @@
 class CentrosHome
   def self.centros_por_precio(precio)
-    ['Miyagi Karate Do', 'Apollo Creed boxing']
+    centros.select { |c| c.precio <= precio }
   end
 
   def self.agregar_centro(centro)
-    # implementar!
+    centros << centro
   end
+
+  def self.centros
+    @centros ||= []
+  end 
 end
