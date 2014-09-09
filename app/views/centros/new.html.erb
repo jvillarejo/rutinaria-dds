@@ -9,3 +9,8 @@
   <%= f.submit 'Guardar' %>
 
 <% end %>
+
+<hr>
+<h4>Centros cargados</h4>
+
+<%= render 'shared/centros_table', centros: CentrosHome.centros %>

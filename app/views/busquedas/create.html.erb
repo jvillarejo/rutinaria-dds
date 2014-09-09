@@ -3,20 +3,4 @@
 <h3>Mostrando lugares para: $<%= @busqueda.precio %></h3>
 <hr>
 
-<table>
-  <tr>
-    <th>Nombre</th>
-    <th>Precio</th>
-    <th>Dirección</th>
-    <th>Actividades</th>
-  </tr>
-  
-  <% @busqueda.resultado.each do |centro| %>
-    <tr>
-      <td><%= centro.nombre %></td>
-      <td><%= centro.precio %></td>
-      <td><%= centro.direccion %></td>
-      <td><%= centro.actividades %></td>
-    </tr>
-  <% end %>
-</table>
+<%= render 'shared/centros_table', centros: @busqueda.resultado %>
