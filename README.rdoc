@@ -1,28 +1,15 @@
-== README
+== Aplicación DEMO del Taller de Rails de DDS UTN 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+= Consigna
 
-Things you may want to cover:
+= Bienvenido a Rutinaria 
 
-* Ruby version
+El objetivo de nuestra aplicación es poder buscar lugares de actividad física que estén dentro del rango de precios que estamos dispuesto a pagar. 
 
-* System dependencies
+Para eso primero nuestra aplicación debe tener la posibilidad de cargar lugares, con un nombre, un precio, actividad que ofrece, dirección y teléfono. 
 
-* Configuration
+También tenemos una posible cliente, Candelaria Guzman, Candelaria solo puede pagar hasta $350 pesos por mes y le dijeron que puede buscar en Rutinaria.com los lugares a los que puede ir en Capital Federal. 
 
-* Database creation
+Candelaria ingresa al sitio y se topa con el buscador según precio entonces completa el campo de precio y le da click en buscar.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Allí ella ve el listado de todos los lugares a los que podría ir y que están en su rango de precio Entonces ella anota las direcciones en su agenda y se pone en campaña para ir a conocer los lugares.
