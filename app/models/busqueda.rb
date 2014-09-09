@@ -4,6 +4,6 @@ class Busqueda
   attr_accessor :precio
 
   def resultado
-    CentrosHome.centros_por_precio(precio)
+    CentrosHome.centros_por_precio(precio.to_i)
   end
 end
