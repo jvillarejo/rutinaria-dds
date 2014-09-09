@@ -1,8 +1,6 @@
-== Aplicación DEMO del Taller de Rails de DDS UTN 
+= Aplicación DEMO del Taller de Rails de DDS UTN 
 
-= Consigna
-
-= Bienvenido a Rutinaria 
+=== Bienvenido a Rutinaria 
 
 El objetivo de nuestra aplicación es poder buscar lugares de actividad física que estén dentro del rango de precios que estamos dispuesto a pagar. 
 
